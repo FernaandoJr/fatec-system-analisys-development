@@ -1,3 +1,0 @@
-Z:/fernando/ex7/cmake-build-debug/CMakeFiles/ex7.dir
-Z:/fernando/ex7/cmake-build-debug/CMakeFiles/edit_cache.dir
-Z:/fernando/ex7/cmake-build-debug/CMakeFiles/rebuild_cache.dir

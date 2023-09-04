@@ -1,3 +1,0 @@
-Z:/fernando/ex5/cmake-build-debug/CMakeFiles/ex5.dir
-Z:/fernando/ex5/cmake-build-debug/CMakeFiles/edit_cache.dir
-Z:/fernando/ex5/cmake-build-debug/CMakeFiles/rebuild_cache.dir

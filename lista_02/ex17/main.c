@@ -4,7 +4,6 @@
 
 int main () {
     double a,b,c;
-    double delta;
     double eq_plus, eq_neg;
 
     printf("Digite 3 numeros :\n");

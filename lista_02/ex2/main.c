@@ -2,7 +2,6 @@
 
 int main() {
     float n;
-    float resultado;
     printf("Digite um numero: ");
     scanf("%f", &n);
 

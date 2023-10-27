@@ -4,11 +4,11 @@ int main () {
     int n;
     int row = 0;
     int col = 0;
-    printf("Digite um nÃºmero impÃ¡r dentro de 2 Ã  20: ");
+    printf("Digite um número impár dentro de 2 á 20: ");
     scanf("%d",&n);
     
         if(n % 2 == 0 || n < 2 || n > 20){
-            printf("NÃºmero invÃ¡lido");
+            printf("Número inválido");
         } else{
 
             while (col < n){

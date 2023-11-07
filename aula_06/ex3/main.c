@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+Faça um programa que seja uma calculadora. O usuário
+digitará um inteiro, um char indicando a operação (+-/*) e outro
+inteiro. Depois disso calcular e imprimir o resultado.
+*/
+
 int main() {
     int n1;
     int n2;

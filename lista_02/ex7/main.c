@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Fazer um programa que leia dois números e imprima se eles
+são iguais ou diferentes.
+*/
+
 int main() {
     float num;
     float num2;

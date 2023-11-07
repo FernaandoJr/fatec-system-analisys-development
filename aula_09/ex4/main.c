@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+/*
+Faça um programa que mostre o seguinte menu na tela e resolva as
+operações conforme o usuário seleciona-las:
+1. Soma
+2. Subtração
+3. Divisão
+4. Multiplicação
+5. Sair
+*/
+
 int main() {
     int menu = 0;
     float n1,n2;

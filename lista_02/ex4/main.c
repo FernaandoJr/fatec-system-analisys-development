@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/*
+A prefeitura de uma cidade resolveu criar uma linha de crédito
+aos seus servidores. A regra é que a prestação não pode
+ultrapassar 30% do salário bruto. Faça um programa que
+recebe o valor do salário bruto e o valor da prestação e indique
+se é ou não possível o empréstimo.
+*/
+
 int main() {
     float salario;
     float prest;

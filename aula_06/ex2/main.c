@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Reescreva o exercício anterior usando o operador condicional.
+*/
+
 int main() {
     int idade;
     int valor;

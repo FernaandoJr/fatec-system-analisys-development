@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Faça um programa que calcule a soma dos n primeiros
+números naturais.
+*/
+
 int main() {
     int n = 1;
     int soma = 0;

@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Ler um número e se ele for maior que 20, então imprimir a
+metade do número.
+*/
+
 int main() {
     float n;
     float resultado;

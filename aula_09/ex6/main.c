@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Refaça os exercícios 1, 2 e 3 usando for
+*/
+
 int main() {
     // EXERCICIO 1
     printf("\n\n----- Exercício 1 -----\n\n");

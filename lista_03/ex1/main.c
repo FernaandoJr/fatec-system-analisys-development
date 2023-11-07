@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+Usando estruturas de repetição, crie um programa aonde você
+entra com 5 números e o programa imprima o quadrado de
+cada um.
+*/
+
+
 int main () {
     int n;
     int count = 1;

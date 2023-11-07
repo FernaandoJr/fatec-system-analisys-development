@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Faça um programa que imprima as tabuadas de 2 a 5 usando while.
+*/
+
 int main() {
     int i = 1;
     int j = 2;

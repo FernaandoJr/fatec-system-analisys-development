@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Entrar com um número e imprimir se ele é igual a 20, menor ou
+maior.
+*/
+
 int main() {
     float num;
     int centena;

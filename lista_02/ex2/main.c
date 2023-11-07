@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Ler um número e imprimir se ele é positivo, negativo ou nulo.
+*/
+
 int main() {
     float n;
     printf("Digite um numero: ");

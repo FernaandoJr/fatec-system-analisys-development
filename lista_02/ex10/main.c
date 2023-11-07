@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Ler três números e imprimir o maior.
+*/
+
 int main() {
     float num1;
     float num2;

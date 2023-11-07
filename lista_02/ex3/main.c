@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Ler um número e imprimir se ele é ou não múltiplo de 3.
+*/
+
 int main() {
     int n;
     float resultado;

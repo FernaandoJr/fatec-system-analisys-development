@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Imprimir o intervalo de 120 a 300
+*/
+
 int main () {
     int i = 120;
 

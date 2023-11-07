@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Faça um programa aonde você entre com 10 números e no
+final imprima qual foi o maior e qual foi o menor.
+*/
+
 int main () {
     int n, cont = 1, maior = 0, menor;
 

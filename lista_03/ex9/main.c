@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Entrar com números e imprimir o triplo de cada um deles. O
+programa termina quando digitar -999.
+*/
+
 int main () {
     int n;
     do {

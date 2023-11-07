@@ -9,6 +9,18 @@ int main () {
     srand ( time(NULL) );
     random = rand() % 1000 + 1;
 
+    /*
+    Faça um programa que joga contra um humano. O programa conta
+    quantos palpites o jogador precisou até adivinhar um número
+    inteiro sorteado entre 1 e 1000, inclusive. Cada vez que o jogador
+    erra, o programa diz quantas tentativas já foram feitas e dá uma
+    dica. A dica informa se o número chutado é maior ou menor que o
+    número sorteado. O jogo vai estreitando o intervalo de números
+    possíveis conforme as tentativas vão sendo feitas. O programa
+    ainda imprime uma avaliação do desempenho do jogador segundo
+    a tabela descrita
+*/
+
     do {
         printf("Tentativa %d. Digite um numero de 1 a 1000 e irei te dizer se esta proximo ou nao: ",qtd);
         scanf("%d",&input);

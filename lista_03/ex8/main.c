@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Ler o número de termos da série (n) e imprimir o valor de H
+sendo: 𝐻 = 1 + 1/2 + 1/3 + 1/4 ... + 1/n 
+*/
+
 int main () {
     int n;
     double result = 0.0;

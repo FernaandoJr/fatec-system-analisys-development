@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Faça um programa que coloque na tela a tabuada do 5 usando while.
+*/
+
 int main() {
     int result;
     int n = 5;

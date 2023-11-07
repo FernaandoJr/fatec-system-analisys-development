@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Ler vários número e quando terminar mostrar quantos foram
+entre 100 e 200. O programa termina quando número for zero.
+*/
+
 int main () {
     int n;
     int cont = 0;

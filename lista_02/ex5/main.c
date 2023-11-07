@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Ler um número com três dígitos e imprimir se o algarismo da
+casa das centenas é par.
+*/
+
 int main() {
     float num;
     int centena;

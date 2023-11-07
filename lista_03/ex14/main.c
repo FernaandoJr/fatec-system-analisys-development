@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+Faça um programa aonde você digite vários números e no final
+imprima quantos foram digitados, a soma deles, a média, o
+maior e o menor. O programa termina quando for digitado zero.
+*/
+
 int main () {
     int input;
     int qtd = 0;

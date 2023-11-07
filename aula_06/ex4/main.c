@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Reescreva o programa do exercício anterior usando switch.
+*/
+
 int main() {
     int n1;
     int n2;

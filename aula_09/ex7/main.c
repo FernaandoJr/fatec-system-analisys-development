@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+Faça um programa que recebe um número entre 1 e 10
+inclusive e faça uma contagem regressiva deste número até
+zero.
+*/
+
 int main() {
     
     int n;

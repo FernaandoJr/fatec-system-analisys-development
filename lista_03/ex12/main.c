@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
+/*
+Faça um programa que calcula a raiz quadrada de um número
+a ser digitado. O programa deve proteger a digitação deste
+número não aceitando números negativos.
+*/
+
 int main () {
     int n;
     float resultado;

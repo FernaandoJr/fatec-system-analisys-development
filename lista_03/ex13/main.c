@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+Criar um programa aonde você seja capaz de digitar números
+e tenha o fatorial deste número calculado e impresso. O
+programa termina quando um valor menor do que 1 é digitado.
+*/
+
 int main () {
     int input;
     int resultado = 1;

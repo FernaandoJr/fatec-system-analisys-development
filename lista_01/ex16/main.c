@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+/*
+Efetuar o cálculo da quantidade de litros de combustível gastos
+em uma viagem, sabendo-se que o carro faz 12km por litro.
+Deverão ser fornecidos o tempo gasto na viagem e a
+velocidade média.
+
+▪ Distância = 𝑡𝑒𝑚𝑝𝑜 × 𝑣𝑒𝑙𝑜𝑐𝑖𝑑𝑎𝑑𝑒
+▪ Litros = 𝑑𝑖𝑠𝑡â𝑛𝑐𝑖𝑎 ÷ 12
+*/
+
 int main () {
     float   tempo,
             vel_media,

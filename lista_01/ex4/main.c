@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Faça um programa que leia dois inteiros e os imprime na tela.
+*/
+
 int main() {
     int n1;
     int n2;

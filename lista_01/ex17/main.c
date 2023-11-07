@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Efetuar o cálculo de uma prestação em atraso usando a
+seguinte fórmula: prestacao = valor + (valor x tax/100 x tempo)
+*/
+
 int main () {
     float   prestacao,
             valor,

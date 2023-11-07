@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+Faça um programa que você entra com o saldo de uma
+aplicação e o sistema calcula e imprime o novo saldo para um
+rendimento de 3,5%.
+*/
+
 int main(){
     int salario;
     int novo_salario;

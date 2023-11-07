@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Crie um programa que imprima a média aritmética entre os
+números 8, 9 e 7.
+*/
+
 int main() {
     int n1 = 8;
     int n2 = 9;

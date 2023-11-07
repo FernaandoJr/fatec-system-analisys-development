@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+Escreva um programa em C que solicite um determinado
+número de segundos e, em seguida, imprima quantas horas,
+minutos e segundos ele representa.
+*/
+
 int main () {
     int segundos;
     int horas;

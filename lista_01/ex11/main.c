@@ -1,5 +1,16 @@
 #include <stdio.h>
 
+/*
+Sabendo que 100 quilowatts de energia custa um sétimo de
+um salário mínimo, faça um programa que receba o valor do
+salário mínimo e a quantidade de quilowatts gasta em uma
+residência e imprima:
+
+▪ O valor em Reais do quilowatt
+▪ O valor em Reais a ser pago
+▪ O valor a ser pago com 10% de desconto
+*/
+
 int main () {
 
     float salario, custo, kw;

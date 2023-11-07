@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+Faça um programa que efetue o cálculo de salário líquido de
+um professor. O programa deve pedir a quantidade de aulas
+dadas, o valor de hora aula e o percentual de desconto do
+INSS.
+*/
+
 int main () {
     float salario_bruto, hora, aulas, desconto, salario_liquido, total_desconto;
     printf("Digite a quantidae e aulas dadas: ");

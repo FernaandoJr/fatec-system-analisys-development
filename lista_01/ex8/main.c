@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Ler dois números reais e imprimir a média aritmética deles
+*/
+
 int main() {
 
     int n1;

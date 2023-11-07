@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Faça um programa que leia o numerador e o denominador de
+uma fração e calcule seu valor decimal.
+*/
+
 int main () {
     float num, den, resultado;
 

@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Ler dois números inteiros e imprimir a soma deles.
+*/
+
 int main() {
     int n1;
     int n2;

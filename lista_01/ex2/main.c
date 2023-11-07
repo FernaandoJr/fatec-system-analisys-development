@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Crie um programa que imprima o produto de 28 e 43.
+*/
+
 int main() {
     int n1 = 28;
     int n2 = 43;

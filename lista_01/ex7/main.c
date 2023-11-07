@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Ler um número real e imprimir a terça parte dele.
+*/
+
 int main() {
 
     int n1;

@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+Sabendo que o perímetro de um círculo é calculado pela
+fórmula: 2 × 𝜋 × 𝑟𝑎𝑖𝑜, e a área pela fórmula 𝜋 × 𝑟𝑎𝑖𝑜2, faça
+um programa que dado o raio de um círculo ele calcule o
+perímetro e a área deste.
+*/
+
 int main () {
     float r = 0;
     float perimetro = 0;

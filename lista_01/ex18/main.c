@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+Leia dois valores para as variáveis A e B, efetuar a troca dos
+valores de forma que A passe a ter o valor de B e B passe a ter
+o valor de A.
+*/
+
 int main () {
     float a,b,c;
 

@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Faça um programa que leia um número e imprima seu
+sucessor e antecessor.
+*/
+
 int main() {
     int n1;
     int ant;

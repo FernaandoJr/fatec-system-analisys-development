@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Faça um programa que indique se um número digitado está entre
+20 e 90 ou não.
+*/
+
 int main () {
     int n1;
     printf("\nDigite um numero: ");

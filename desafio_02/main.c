@@ -2,13 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main () {
-    int input;
-    int random;
-    int qtd = 1;
-    srand ( time(NULL) );
-    random = rand() % 1000 + 1;
-
     /*
     Faça um programa que joga contra um humano. O programa conta
     quantos palpites o jogador precisou até adivinhar um número
@@ -20,6 +13,13 @@ int main () {
     ainda imprime uma avaliação do desempenho do jogador segundo
     a tabela descrita
 */
+
+int main () {
+    int input;
+    int random;
+    int qtd = 1;
+    srand ( time(NULL) );
+    random = rand() % 1000 + 1;
 
     do {
         printf("Tentativa %d. Digite um numero de 1 a 1000 e irei te dizer se esta proximo ou nao: ",qtd);

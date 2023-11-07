@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Ler três notas, calcular a média e se esta for maior ou igual a 7
+imprimir aprovado ou reprovado.
+*/
+
 int main () {
     float n1,n2,n3,media;
 

@@ -1,5 +1,17 @@
 #include <stdio.h>
 
+/*
+Em um campeonato de arco e flecha tem-se equipes de três
+atletas para cada estado. Crie um programa que leia a quantidade
+de pontos obtidos por cada um deles e informe se a equipe foi
+classificada de acordo com a seguinte especificação:
+
+▪ Ler os pontos de cada jogador da equipe
+▪ Mostrar os valores em ordem crescente
+▪ Se a soma dos pontos for maior que 100, imprimir a média dos pontos,
+senão imprimir desclassificada
+*/
+
 
 int main () {
     int a1,a2,a3;

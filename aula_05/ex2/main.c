@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Faça um programa que receba o mês e diga quantos dias ele
+possui (fevereiro = 28).
+*/
+
 int main() {
     int mes;
     int dias;

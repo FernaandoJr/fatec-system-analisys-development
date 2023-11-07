@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Ler três números e imprimi-los em ordem crescente.
+*/
+
 int main() {
     float num1;
     float num2;

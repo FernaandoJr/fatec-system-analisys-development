@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+Ler três números e verificar se eles podem representar os
+lados de um triângulo. A regra é que um lado deve ser menor
+que a soma dos outros dois lados.
+*/
+
 int main () {
     float n1,n2,n3;
 

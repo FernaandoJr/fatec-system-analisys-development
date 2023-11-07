@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Faça um programa que verifica se um número é válido para a
+seguinte regra: ele deve ser maior que zero e menor que 100.
+*/
+
 int main() {
     int num;
 

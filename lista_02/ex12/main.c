@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Ler três números e guarda-los em três variáveis com os
+nomes: maior, intermediário e menor
+*/
+
 int main() {
     float num1;
     float num2;

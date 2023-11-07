@@ -1,5 +1,17 @@
 #include <stdio.h>
 
+/*
+Acontecerá um campeonato de natação e devemos verificar em
+qual categoria o atleta se encaixa. Ler a idade e decidir a
+categoria conforme a regra:
+
+▪ Infantil A – 5 a 7 anos
+▪ Infantil B – 8 a 10 anos
+▪ Juvenil A – 11 a 13 anos
+▪ Juvenil B – 14 a 17 anos
+▪ Sênior – 18 anos ou mais
+*/
+
 int main () {
     int idade;
 

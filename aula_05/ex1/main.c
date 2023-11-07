@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Faça um programa que leia um inteiro e diga se ele é maior
+que zero ou não.
+*/
+
 int main() {
     int num;
     printf("Digite um numero inteiro: ");

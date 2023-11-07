@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+Ler 5 números e imprimir o maior e o menor.
+*/
+
 int main() {
     float n1,n2,n3, n4,n5, maior, menor;
 

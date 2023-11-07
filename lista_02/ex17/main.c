@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 
+/*
+Pesquise a função sqrt da biblioteca math.h. Faça um programa
+que leia três variáveis (a, b,e c) e resolva uma equação do
+segundo grau.
+*/
 
 int main () {
     double a,b,c;

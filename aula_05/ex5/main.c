@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+Faça um programa que receba um número e verifique se ele é
+par ou impar.
+*/
+
 int main() {
     int num;
 

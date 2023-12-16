@@ -1,4 +1,4 @@
-# Activities Undertaken in the System Analysis and Development Course
+# Programming Activities Documentation for the System Analysis and Development Course
 
 ## 💻 About the Repository
 This repository serves as documentation for programming activities carried out throughout the System Analysis and Development course at Fatec Arthur Azevedo.

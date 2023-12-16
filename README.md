@@ -25,6 +25,6 @@ This section houses projects and exercises dedicated to the fundamental concepts
 <hr/>
 
 ## 📄 License
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE.md](LICENSE) file for details.
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
 **Thank you for visiting our repository!** 😊

@@ -5,9 +5,9 @@ This repository serves as documentation for programming activities carried out t
 
 Throughout the course, significant projects were developed in various disciplines, including:
 
-### Semesters and Subjects:
-- **1st Semester:** Algorithms and Programming Logic;
-- **2nd Semester:** N/A;
+### Periods and Subjects:
+- **[1st Period:](https://github.com/FernaandoJr/System-Analisys-and-Development/tree/main/1%C2%B0%20Semestre/Algoritmos%20e%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o)** Algorithms and Programming Logic;
+- **2nd Period:** N/A;
 
 <hr/>
 

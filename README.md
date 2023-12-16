@@ -25,6 +25,6 @@ This section houses projects and exercises dedicated to the fundamental concepts
 <hr/>
 
 ## 📄 License
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](https://github.com/FernaandoJr/System-Analisys-and-Development?tab=MIT-1-ov-file) file for details.
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
-**Thank you for visiting our repository!** 😊
+**Thank you for visiting my repository!** 😊

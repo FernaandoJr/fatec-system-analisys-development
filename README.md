@@ -17,10 +17,17 @@ Key technologies used in this repository include:
 <hr/>
 
 ## 📂 Repository Structure
-The organization of this repository aims to facilitate access and understanding of the activities carried out. The structure is divided as follows:
+
+The organization of this repository is designed to enhance accessibility and comprehension of the activities carried out. The structure is divided as follows:
 
 ### Algorithms-and-Logic
-This section houses projects and exercises dedicated to the fundamental concepts of algorithms and programming logic. It encompasses the essential building blocks for problem-solving and logical reasoning in the context of software development.
+This section houses projects, exercises, and challenges dedicated to the fundamental concepts of algorithms and programming logic. It encompasses the essential building blocks for problem-solving and logical reasoning in the context of software development, including exercises and challenges assigned by Professor Marcos Nava.
+
+- **Exercises and Challenges by Professor Marcos Nava:**
+  Every solved exercise or challenge assigned by Professor Marcos Nava in the Algorithms and Programming Logic course can be found here.
+
+  - [Marcos Nava (Programação Em)](https://www.youtube.com/@programarem)
+
 
 <hr/>
 

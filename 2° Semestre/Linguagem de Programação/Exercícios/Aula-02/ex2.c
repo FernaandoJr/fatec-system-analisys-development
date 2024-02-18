@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #define PI 3.14159265358979323846
 
 /*
@@ -7,7 +6,6 @@ Desenvolva um programa que solicite ao usuário o raio de um circulo e
 calcule a area e o perimetro do circulo. Use as formulas discutidas
 anteriormente e exiba os resultados.
 */
-
 
 int main () {
     double raio, area, perimetro;

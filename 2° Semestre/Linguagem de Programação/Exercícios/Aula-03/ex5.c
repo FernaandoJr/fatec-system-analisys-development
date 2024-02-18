@@ -24,6 +24,5 @@ int main () {
             printf("Tipo de veículo: Outro tipo");
             break;
     }
-
     return 0;
 }

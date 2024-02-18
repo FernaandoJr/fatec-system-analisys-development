@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /*
 Crie um programa que solicite ao usuário que insira um numero de 1 a
 7 e exiba o dia da semana correspondente (1 para Domingo, 2 para Segunda-

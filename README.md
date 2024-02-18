@@ -13,7 +13,7 @@ Throughout the course, significant projects were developed in various discipline
 
 ## 🚀 Technologies Used
 Key technologies used in this repository include:
-- **C Programming Language:**
+- **C Programming Language;**
 <hr/>
 
 ## 📂 Repository Structure

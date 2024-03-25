@@ -1,7 +1,6 @@
 #include <stdio.h>
 /*
-Crie um programa que leia uma matriz 3x3 e imprima a sua matriz transposta 
-(a matriz transposta é obtida trocando linhas por colunas).
+Crie um programa que realiza a transposição de uma matriz.
 */
 int main (int argc, char *argv[]) {
     int matriz[3][3]= {{1,2,3},{4,5,6},{7,8,9}};

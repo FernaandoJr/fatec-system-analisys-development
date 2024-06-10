@@ -10,37 +10,39 @@ int main (int argc, char *argv[]) {
     float x1,x2;
 
     printf("**********************\n");
-    printf("* Calculadora Básica *\n");
+    printf("* Calculadora Basica *\n");
     printf("**********************\n");
 
     while(input != 0){
-    printf("Digite seu 1° número: \n");
-    scanf("%f",&x1);
-    printf("Digite seu 2° número: \n");
-    scanf("%f",&x2);
-    printf("Digite 1 - Adição\n");
-    printf("Digite 2 - Subtração\n");
-    printf("Digite 3 - Multiplicação\n");
-    printf("Digite 4 - Divisão\n");
-    printf("Digite 0 - Sair\n");
-    printf("Escolha: \n");
-    scanf("%d",&input);
+        printf("Digite seu primeiro numero: ");
+        scanf("%f",&x1);
+        printf("Digite seu segundo numero: ");
+        scanf("%f",&x2);
+        printf("Escolha:\n");
+        printf("1. Adicao\n");
+        printf("2. Subtracao\n");
+        printf("3. Multiplicacao\n");
+        printf("4. Divisao\n");
+        printf("0. Sair\n");
+        printf("Escolha: ");
+        scanf("%d",&input);
 
 
     switch (input){
     case 1:
-        CalcSoma(x1,x2);
+        printf("Resultado: %.2lf + %.2lf = %.2lf\n", x1,x2,CalcSoma(x1,x2));
         break;
     case 2:
-        CalcSubtracao(x1,x2);
+        printf("Resultado: %.2lf / %.2lf = %.2lf\n", x1,x2, CalcSubtracao(x1,x2));
         break;
     case 3:
-        CalcMult(x1,x2);
+        printf("Resultado: %.2lf x %.2lf = %.2lf\n", x1,x2, CalcMult(x1,x2));
         break;
     case 4:
-        CalcDivisao(x1,x2);
+        printf("Resultado: %.2lf / %.2lf = %.2lf\n", x1, x2, CalcDivisao(x1,x2));
         break;
     default:
+        printf("Tente novamente!\n");
         break;
     }
 
@@ -49,5 +51,19 @@ int main (int argc, char *argv[]) {
 }
 
 float CalcSoma(float x1, float x2){
+    return x1 + x2;
+}
+float CalcSubtracao(float x1, float x2){
     return x1 - x2;
+}
+float CalcMult(float x1, float x2){
+    return x1 * x2;
+}
+float CalcDivisao(float x1, float x2){
+    if(x2 == 0){
+        printf("Nao e possivel dividir por zero!\n");
+        return 0;
+    } else{
+        return x1 / x2;
+    }
 }

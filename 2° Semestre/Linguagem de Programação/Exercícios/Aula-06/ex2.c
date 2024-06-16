@@ -5,6 +5,13 @@ Escreva uma função que converta temperaturas de Celsius para Fahrenheit e
 outra para converter de Fahrenheit para Celsius.
 */
 
+float FahToCel(float valor){ 
+    return ((valor - 32.0) * 5.0 / 9.0); 
+} 
+float CelToFah(float valor){ 
+    return (9 * valor) / 5 + 32; 
+} 
+
 int main (int argc, char *argv[]) {
     int input;
     double valor;
@@ -24,7 +31,7 @@ int main (int argc, char *argv[]) {
         case 2:
             printf("Digite uma temperatura em Fahrenheits: ");
             scanf("%lf", &valor);
-            printf("Resultado: %0.2f C\n",  FahToCel(valor));
+            printf("Resultado: %0.2f C\n", FahToCel(valor));
             break;
         default:
             printf("Tente novamente!\n");

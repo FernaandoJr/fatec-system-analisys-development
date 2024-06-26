@@ -5,7 +5,7 @@ Por exemplo, se o vetor de entrada for [1,2,3,...,15],
 a saída deve ser [15,14,13,...,1].
 */
 
-int main(int argc, char *argv[]){
+int main(){
     int vetor[15];
     int invertido_vetor[15];
     for (int i = 0; i < 15; i++){

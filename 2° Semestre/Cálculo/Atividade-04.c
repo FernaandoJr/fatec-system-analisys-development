@@ -23,7 +23,7 @@ Nome: Fernando Divino de Moraes Júnior
         Não se esquecer de apresentar uma mensagem de erro quando alguma condição não for válida.
 */
 
-int main (int argc, char *argv[]) {
+int main () {
     int menu;
     double x, k, resultado = 0.0;
     double a,b;

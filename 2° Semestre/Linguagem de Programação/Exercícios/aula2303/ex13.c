@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main (int argc, char *argv[]) {
+int main () {
     int soma = 0;
     int matriz1[4][4]= {{1,25,37,19},{41,2,61,55},{17,85,3,52},{75,83,98,4}};
     printf("\nDiagonal:\n\n");

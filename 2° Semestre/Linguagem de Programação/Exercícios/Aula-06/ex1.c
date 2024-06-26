@@ -5,7 +5,7 @@ float CalcSubtracao(float x1, float x2);
 float CalcMult(float x1, float x2);
 float CalcDivisao(float x1, float x2);
 
-int main (int argc, char *argv[]) {
+int main () {
     int input = 1;
     float x1,x2;
 

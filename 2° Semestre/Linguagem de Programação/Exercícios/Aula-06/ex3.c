@@ -14,7 +14,7 @@ void InversorString(char *string){
     }
 }
 
-int main (int argc, char *argv[]) {
+int main () {
     char string[100] = "Fernando Divino";
 
     printf("String original: %s\n",string);

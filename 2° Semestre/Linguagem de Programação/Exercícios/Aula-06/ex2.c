@@ -12,7 +12,7 @@ float CelToFah(float valor){
     return (9 * valor) / 5 + 32; 
 } 
 
-int main (int argc, char *argv[]) {
+int main () {
     int input;
     double valor;
     

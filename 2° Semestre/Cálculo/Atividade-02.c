@@ -9,7 +9,7 @@ Se gráfico possui parábola côncava para cima ou para baixo.
 Zeros reais da função (no caso de não existir, apresentar uma mensagem de inexistência de zeros reais).
 Valores do vértice da parábola.
 */
-int main (int argc, char *argv[]) {
+int main () {
     float a, b, c;
     float delta;
     double xv = 0,yv = 0;

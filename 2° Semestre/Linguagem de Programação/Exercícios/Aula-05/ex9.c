@@ -3,7 +3,7 @@
 Elabore um programa que leia uma matriz 5x5. O programa deve encontrar e imprimir o 
 maior valor da matriz e sua respectiva posição (linha e coluna).
 */
-int main (int argc, char *argv[]) {
+int main () {
     int maior = 0;
     int linha, coluna;
     int matriz[5][5]= {

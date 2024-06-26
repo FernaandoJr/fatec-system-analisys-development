@@ -9,7 +9,7 @@ seno do ângulo x
 cosseno do ângulo x
 tangente do ângulo x
 */
-int main (int argc, char *argv[]) {
+int main () {
     double angulo_grau = 80; // <- DIGITE O ÂNGULO DESEJADO AQUI!
     double angulo_rad;
     double resultado_sen, resultado_cos, resultado_tan;

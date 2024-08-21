@@ -4,6 +4,7 @@
 #include <string.h>
 #include <ctype.h>
 
+
 bool mesmaOuMaiorPrecedencia(char op1, char op2) {
     if(op2 == '(' || op2 == ')')
     {

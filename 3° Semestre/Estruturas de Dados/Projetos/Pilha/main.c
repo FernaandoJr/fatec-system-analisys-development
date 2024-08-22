@@ -15,7 +15,7 @@ int main (int argc, char *argv[]) {
     char numeros[100][20] = {'\0'};
 
     limpaVetor(vec, 100);
-    strcpy(exp,"((22 + 5) * 2) / 3");
+    strcpy(exp,"(25 + 3) / 7");
     stringParaVetor(exp, vec, 100);
 
     // Cicla por toda a Expressão
@@ -24,25 +24,38 @@ int main (int argc, char *argv[]) {
         
 
         // 1.2 Se o token for:
-
         // 1.2.1 Um número: coloque ele na pilha de valores.
-        if(!(strchr(vec[posicao], '(') != NULL ||
-            strchr(vec[posicao], ')') != NULL ||
-            strchr(vec[posicao], '+') != NULL ||
-            strchr(vec[posicao], '-') != NULL ||
-            strchr(vec[posicao], '*') != NULL ||
-            strchr(vec[posicao], '/') != NULL ||
-            strchr(vec[posicao], ' ') != NULL   )){
-                // guarda o numero na pilha e avança
-                strcpy(numeros[count_numeros], vec[posicao]);
-                count_numeros++;
-        //1.2.2 Um abre parênteses  "(": coloque na pilha de operadores
-        }else{
-            
+        if (!(strchr(vec[posicao], '(') != NULL ||
+              strchr(vec[posicao], ')') != NULL ||
+              strchr(vec[posicao], '+') != NULL ||
+              strchr(vec[posicao], '-') != NULL ||
+              strchr(vec[posicao], '*') != NULL ||
+              strchr(vec[posicao], '/') != NULL ||
+              strchr(vec[posicao], ' ') != NULL)){
+            // guarda o numero na pilha e avança
+            strcpy(numeros[count_numeros], vec[posicao]);
+            count_numeros++;
+
+
+          // 1.2.2 Um abre parênteses  "(": coloque na pilha de operadores
+        } else{
+
+            if(strchr(vec[posicao], ')') != NULL){
+                int pos;
+                
+            }
+
+            // guarda o operador na pilha e avança
+            strcpy(operadores[count_operadores], vec[posicao]);
+            count_operadores++;
+
+
+
+
         }
     
     
-    
+    }
     
     
     

@@ -2,11 +2,21 @@
 #define PILHA_H
 #include <stdbool.h>
 
+enum {
+    TAMANHO = 100,
+    TAMANHO_STRING = 2
+};
 
-bool mesmaOuMaiorPrecedencia(char op1, char op2);
 bool find(char letra, char *str);
-void stringParaVetor(char *line, char vec[][20], int tamanho);
-void limpaVetor(char v[][20], int tamanho);
-bool pop(int *dado, int posicao);
+void stringParaVetor(char *line, char vetor[][20], int tamanho);
+void ResolverEquacao(char entrada[][20]);
+bool PushOperador(char *valor);
+bool PushNumero(double valor);
+bool PopOperador(char *valor);
+bool PopNumero(double *valor);
+bool CheckOperadorVazio();
+bool CheckNumeroVazio();
 
-#endif //PILHA_H
+double MostrarResultado();
+
+#endif // PILHA_H

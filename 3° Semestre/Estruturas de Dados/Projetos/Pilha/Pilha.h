@@ -16,6 +16,7 @@ bool PopOperador(char *valor);
 bool PopNumero(double *valor);
 bool CheckOperadorVazio();
 bool CheckNumeroVazio();
+bool CheckPrecedencia(char operador1);
 
 double MostrarResultado();
 

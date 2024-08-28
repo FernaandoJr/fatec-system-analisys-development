@@ -5,13 +5,19 @@
 #include <ctype.h>
 #include <math.h>
 
+/*
+NOMES:  
+    FERNANDO DIVINO DE MORAES JUNIOR
+    LUIS FELIPE PIASENTINI
+*/
+
 int main() {
     char expressao[100] = "";
     char vetor[100][20] = {
         '\0'
     };
 
-    strcpy(expressao, "(5+5)*2*(10+3)");
+    strcpy(expressao, "(5+5)*2*(10+39)");
     stringParaVetor(expressao, vetor, TAMANHO);
 
     printf("\nEXPRESSAO\n");

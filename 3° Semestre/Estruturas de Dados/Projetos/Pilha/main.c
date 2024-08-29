@@ -7,8 +7,11 @@
 
 /*
 NOMES:  
-    FERNANDO DIVINO DE MORAES JUNIOR
-    LUIS FELIPE PIASENTINI
+FERNANDO DIVINO DE MORAES JUNIOR
+LUIS FELIPE PIASENTINI
+
+COMANDO:
+cd $dir && gcc -o $fileNameWithoutExt ./main.c ./Pilha.c && $fileNameWithoutExt
 */
 
 int main() {

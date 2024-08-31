@@ -10,8 +10,16 @@ NOMES:
 FERNANDO DIVINO DE MORAES JUNIOR
 LUIS FELIPE PIASENTINI
 
-COMANDO:
-cd $dir && gcc -o $fileNameWithoutExt ./main.c ./Pilha.c && $fileNameWithoutExt
+COMANDO PARA RODAR:
+gcc -o main main.c ./Pilha.c && main
+
+PROBLEMA:
+Algoritmo de Shunting Yard por Edgar Dijkstra
+
+O programa começa com o usuário passando uma string com a expressão.
+
+Essa string deve ser processada e os elementos precisam ser divididos em elementos de um vetor.
+
 */
 
 int main() {

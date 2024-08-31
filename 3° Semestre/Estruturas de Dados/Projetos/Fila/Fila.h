@@ -4,17 +4,18 @@
 
 // Constantes
 enum {
-    TAMANHO = 100
+    TAMANHO = 5,
+    //FIM = false
 };
 
 // Variáveis
 extern int fila[TAMANHO];
 extern int inicio;
 extern int fim;
+extern bool vazia;
 
 // Protótipos
 bool adicionar(int valor);
-bool retirar(int *valor);
 void imprimir();
 
 #endif

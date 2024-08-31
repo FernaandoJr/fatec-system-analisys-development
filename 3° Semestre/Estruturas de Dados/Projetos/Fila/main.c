@@ -13,7 +13,6 @@ cd $dir && gcc -o $fileNameWithoutExt ./main.c ./Fila.c && $fileNameWithoutExt
 enum {
     OP_NAO_SELECIONADA = 0,
     OP_ADICIONAR,
-    OP_RETIRAR,
     OP_IMPRIMIR,
     OP_SAIR
 };
@@ -32,20 +31,7 @@ int main () {
             case OP_ADICIONAR:
                 printf("Digite um numero: ");
                 scanf("%d", &numero);
-                if(!adicionar(numero))
-                {
-                    printf("Fila cheia!\n");
-                }
-                break;
-            case OP_RETIRAR:
-                if(retirar(&numero))
-                {
-                    printf("%d retirado da fila\n", numero);
-                }
-                else
-                {
-                    printf("Fila vazia\n");
-                }
+                adicionar(numero);
                 break;
             case OP_IMPRIMIR:
                 imprimir();
@@ -61,16 +47,14 @@ int main () {
     return 0;
 }
 
-int menu()
-{
+int menu(){
     int op = OP_NAO_SELECIONADA;
 
-    printf("Menu\n");
-    printf("%d - Adicionar\n", OP_ADICIONAR);
-    printf("%d - Retirar\n", OP_RETIRAR);
-    printf("%d - Imprimir\n", OP_IMPRIMIR);
-    printf("%d - Sair\n", OP_SAIR);
-    printf("Digite sua opcao: ");
+    printf("\n +=~- Menu -~=+\n");
+    printf("| %d - Adicionar\t|\n", OP_ADICIONAR);
+    printf("| %d - Imprimir\t|\n", OP_IMPRIMIR);
+    printf("| %d - Sair\t|\n", OP_SAIR);
+    printf("Opcao: ");
     scanf("%d", &op);
 
     return op;

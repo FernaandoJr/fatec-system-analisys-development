@@ -1,36 +1,41 @@
-# Programming Activities Documentation for the System Analysis and Development Course
+# Documentação das Atividades de Programação para o Curso de Análise e Desenvolvimento de Sistemas
 
-## 💻 About the Repository
-This repository serves as documentation for programming activities carried out throughout the System Analysis and Development course at Fatec Arthur Azevedo.
+## 💻 Sobre o Repositório
+Este repositório serve como documentação para as atividades de programação realizadas ao longo do curso de Análise e Desenvolvimento de Sistemas na Fatec Arthur Azevedo.
 
-Throughout the course, significant projects were developed in various disciplines, including:
-
-### Periods and Subjects:
-- **[1st Period:](https://github.com/FernaandoJr/System-Analisys-and-Development/tree/main/1%C2%B0%20Semestre/Algoritmos%20e%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o)** Algorithms and Programming Logic;
-- **[2nd Period:](https://github.com/FernaandoJr/System-Analisys-and-Development/tree/main/2%C2%B0%20Semestre/Linguagem%20de%20Programa%C3%A7%C3%A3o/Aulas/Aula-01)** Programming Language, Calculus;
-
-<hr/>
-
-## 🚀 Technologies Used
-Key technologies used in this repository include:
-- **C Programming Language;**
-<hr/>
-
-## 📂 Repository Structure
-
-The organization of this repository is designed to enhance accessibility and comprehension of the activities carried out. The structure is divided as follows:
-
-### Algorithms-and-Logic
-This section houses projects, exercises, and challenges dedicated to the fundamental concepts of algorithms and programming logic. It encompasses the essential building blocks for problem-solving and logical reasoning in the context of software development, including exercises and challenges assigned by Professor Marcos Nava.
-
-- **Exercises and Challenges by Professor Marcos Nava:**
-  Every solved exercise or challenge assigned by Professor Marcos Nava in the Algorithms and Programming Logic course can be found here.
-
-  - [Marcos Nava (Programação Em)](https://www.youtube.com/@programarem)
+Ao longo do curso, diversos projetos foram desenvolvidos em várias disciplinas, incluindo:
+- **[1º Semestre:](https://github.com/FernaandoJr/fatec-system-analisys-development/tree/main/1%C2%B0%20Semestre)** Algoritmos e Lógica de Programação;
+- **[2º Semestre:](https://github.com/FernaandoJr/fatec-system-analisys-development/tree/main/2%C2%B0%20Semestre)** Linguagem de Programação; Cálculo;
+- **[3º Semestre:](https://github.com/FernaandoJr/fatec-system-analisys-development/tree/main/3%C2%B0%20Semestre)** Estrutura de Dados; Banco de Dados;
 
 <hr/>
 
-## 📄 License
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+## 🚀 Tecnologias/Linguagens Utilizadas
+As principais tecnologias utilizadas neste repositório incluem:
+- **Linguagem de Programação C;**
+- **Visual Studio Code;**
+- **CLion;**
+<hr/>
 
-**Thank you for visiting my repository!** 😊
+## 📂 Estrutura do Repositório
+
+A organização deste repositório foi projetada para melhorar a acessibilidade e a compreensão das atividades realizadas. A estrutura está dividida da seguinte forma:
+
+- ### [Algoritmos e Lógica de Programação](https://github.com/FernaandoJr/fatec-system-analisys-development/tree/main/1%C2%B0%20Semestre/Algoritmos%20e%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o)
+Esta seção cobre a disciplina de Algoritmos e Lógica de Programação, ministrada pelo Professor Nava, com ênfase no desenvolvimento de algoritmos e sua implementação em C. O curso explora estruturas de controle de fluxo, como sequência, seleção e repetição, além de tipos de dados básicos e estruturados, rotinas e manipulação de arquivos. O foco é analisar problemas computacionais e projetar soluções eficientes por meio da construção de algoritmos.
+
+- ### [Linguagem de Programação](https://github.com/FernaandoJr/fatec-system-analisys-development/tree/main/2%C2%B0%20Semestre/Linguagem%20de%20Programa%C3%A7%C3%A3o)
+Esta seção foca nos conceitos fundamentais de programação em C, conforme ensinados pelo Professor Maromo. O curso abrange variáveis, operadores, controle de fluxo, vetores, ponteiros e estruturas, além da manipulação de arquivos. O objetivo é resolver problemas através da lógica de programação e implementar programas em C, incluindo manipulação de arquivos e uso de funções de biblioteca.
+
+- ### [Cálculo](https://github.com/FernaandoJr/fatec-system-analisys-development/tree/main/2%C2%B0%20Semestre/C%C3%A1lculo)
+Esta seção aborda a disciplina de Cálculo, ministrada pelo Professor Márcio, com foco na aplicação dos conceitos matemáticos em C. O curso visa aprimorar a lógica matemática através de algoritmos que abordam problemas como a análise de ângulos, coeficientes de funções quadráticas, e o cálculo de derivadas e integrais. Os projetos desenvolvidos têm como objetivo consolidar a compreensão e a aplicação de técnicas de cálculo em contextos práticos de programação.
+
+- ### [Estrutura de Dados](https://github.com/FernaandoJr/fatec-system-analisys-development/tree/main/3%C2%B0%20Semestre/Estruturas%20de%20Dados)
+Nesta seção, são apresentadas as atividades da disciplina de Estrutura de Dados, ministrada pelo Professor Nava, com foco na implementação em C. O curso abrange conceitos como pilhas, filas, alocação dinâmica, recursividade, listas encadeadas, tabelas de espalhamento e árvores. O objetivo é criar e manipular tipos abstratos de dados, como listas, pilhas, filas e árvores, aplicados em projetos como o simulador de banco de dados.
+
+<hr/>
+
+## 📄 Licença
+Este projeto está licenciado sob a [Licença MIT](LICENSE) - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+**Obrigado por visitar meu repositório!** 😊

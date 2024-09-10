@@ -24,11 +24,12 @@ bool adicionar(int valor) {
     return true;
 }
 
-bool retirar(int * valor) {
+bool retirar(int *valor) {
     if (vazia) {
         return false;
     }
-    * valor = fila[inicio];
+    *valor = fila[inicio];
+    fila[inicio] = -1; // Limpa a senha antiga
     inicio++;
     if (inicio == TAMANHO) {
         inicio = 0;
@@ -52,7 +53,6 @@ void imprimir() {
                 i = 0;
             }
         } while (i != fim);
-
         printf("\n");
     }
 }
@@ -62,6 +62,15 @@ bool ExisteNaFila(int senha) {
         if (fila[i] == senha) {
             return true;
         }
-        return false;
     }
+    return false;
+}
+
+void inicializarFila() {
+    for (int i = 0; i < TAMANHO; i++) {
+        fila[i] = -1;
+    }
+    inicio = 0;
+    fim = 0;
+    vazia = true;
 }

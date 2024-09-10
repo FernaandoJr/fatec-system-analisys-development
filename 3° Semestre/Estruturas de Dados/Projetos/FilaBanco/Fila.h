@@ -4,7 +4,7 @@
 
 // Constantes
 enum {
-    TAMANHO = 50
+    TAMANHO = 20
 };
 
 // Variáveis
@@ -18,4 +18,5 @@ bool adicionar(int valor);
 bool retirar(int *valor);
 bool ExisteNaFila(int senha);
 void imprimir();
+void inicializarFila();
 #endif //FILACIRCULAR_FILACIRCULAR_H

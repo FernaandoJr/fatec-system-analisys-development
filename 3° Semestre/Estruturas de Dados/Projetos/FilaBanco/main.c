@@ -3,6 +3,16 @@
 #include <time.h>
 #include "Fila.h"
 
+/*
+NOMES:
+FERNANDO DIVINO DE MORAES JUNIOR
+LUIS FELIPE PIASENTINI
+
+COMANDO PRA RODAR:
+gcc -o main main.c ./Fila.c && main
+ou rodar o main.exe
+*/
+
 // Constantes
 enum {
     OP_NAO_SELECIONADA = 0,
@@ -11,10 +21,9 @@ enum {
         OP_SAIR
 };
 
-// Protótipos
 int menu();
-
-int main(void) {
+int main() {
+    inicializarFila();
     int opcao = OP_NAO_SELECIONADA;
     int senha = 0;
     srand(time(NULL));
@@ -24,11 +33,11 @@ int main(void) {
 
         switch (opcao) {
         case OP_RETIRARFILA:
-            senha = rand() % 1000 + 1;
+            senha = rand() % 50 + 1;
 
             if (ExisteNaFila(senha)) {
                 system("cls");
-                printf("\nSenha ja existe, retire outra senha!");
+                printf("Senha %d ja existe, retire outra senha!\n", senha);
             } else {
                 if (!adicionar(senha)) {
                     system("cls");
@@ -40,7 +49,7 @@ int main(void) {
             }
             break;
         case OP_ATENDERFILA:
-            if (retirar( & senha)) {
+            if (retirar(&senha)) {
                 system("cls");
                 printf("%d retirado da fila\n", senha);
             } else {
@@ -49,11 +58,15 @@ int main(void) {
             }
             break;
         case OP_SAIR:
+            system("cls"); 
             break;
         default:
+            system("cls"); 
             printf("Opcao invalida!\n");
         }
-        imprimir();
+        if(opcao != 3){
+            imprimir();
+        }
     }
 
     return 0;
@@ -67,7 +80,7 @@ int menu() {
     printf("| %d - Sair\t\t|\n", OP_SAIR);
     printf("+=~-------------------~=+\n");
     printf("Digite sua opcao: ");
-    scanf("%d", & op);
+    scanf("%d", &op);
 
     return op;
 }

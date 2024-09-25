@@ -3,9 +3,6 @@
 #include "Lista.h"
 
 /*
-FERNANDO DIVINO DE MORAES JUNIOR
-LUIS FELIPE PIASENTINI
-
 gcc -o main main.c ./Lista.c && main
 */
 int menu();
@@ -14,6 +11,7 @@ int main () {
     inicializarFila();
     int opcao = OP_NAO_SELECIONADA;
     int numero = 0;
+    int index;
 
     while (opcao != OP_SAIR) {
         opcao = menu();
@@ -64,12 +62,30 @@ int main () {
         case OP_DELETE:
             printf("Digite o indice que deseja excluir: ");
             scanf("%d", &numero);
+            system("cls");
             if(!deleteByIndex(numero)){
-                system("cls");
                 printf("Indice nao existe!\n");
             } else{
-                system("cls");
                 printf("Fila alterada!\n");
+                imprimir();
+            }
+            break;
+        case OP_SORT:
+            system("cls");
+            printf("Fila organizada em ordem crescente!\n");
+            sort();
+            break;
+        case OP_SET:
+            printf("Digite o Indice que deseja alterar: ");
+            scanf("%d", &index);
+            printf("Digite o novo valor do Indice %d: ", index);
+            scanf("%d", &numero);
+            system("cls");
+            if(set(index, numero)){
+                printf("numero alterado com sucesso!\n");
+                imprimir();
+            } else{
+                printf("Indice invalido ou não existente\n");
                 imprimir();
             }
             break;

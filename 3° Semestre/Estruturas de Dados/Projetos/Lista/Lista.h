@@ -4,7 +4,8 @@
 
 // Constantes
 enum {
-    TAMANHO = 5
+    TAMANHO = 7,
+    MAXINTEGER = 2147483647
 };
 
 enum {
@@ -29,12 +30,13 @@ extern bool vazia;
 
 // Protótipos
 bool add(int valor);
-bool retirar(int *valor);
-void imprimir();
-void inicializarFila();
-int searchByIndex(int valor);
-int size();
-void inicializarFila();
-int searchByValue(int valor);
+bool imprimir();
 bool deleteByIndex(int index);
+bool set(int index, int valor);
+void inicializarFila();
+void sort();
+void tudo_imprimir();
+int searchByIndex(int valor);
+int searchByValue(int valor);
+int size();
 #endif //FILACIRCULAR_FILACIRCULAR_H

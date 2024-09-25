@@ -16,15 +16,22 @@ bool add(int valor) {
     fim++;
 }
 
-void imprimir(){
+void tudo_imprimir(){
+    printf("toda a lista:");
+    for(int k = 0; k < TAMANHO; k++){
+         printf(" %d ", fila[k]);
+    }
+    printf("\n");
+}
+
+bool imprimir(){
     for(int i = 0; i < TAMANHO; i++){
-        if(fila[i] != -9999999){
+        if(fila[i] != MAXINTEGER){
             printf("| %d |", fila[i]);
         }
     }
-    if(fila[0] ==  -9999999){
-        printf("Fila Vazia!\n");
-    }
+    return true;
+    
 }
 
 int searchByIndex(int valor){
@@ -40,7 +47,7 @@ int size(){
     int i = 0;
     int contador = 0;
     for(i; i < TAMANHO; i++){
-        if(fila[i] != -9999999){
+        if(fila[i] != MAXINTEGER){
             contador++;
         }    
     }
@@ -69,7 +76,7 @@ int menu() {
 
 void inicializarFila() {
     for (int i = 0; i < TAMANHO; i++) {
-        fila[i] = -9999999;
+        fila[i] = MAXINTEGER;
     }
 }
 
@@ -92,6 +99,29 @@ bool deleteByIndex(int index) {
         fila[i] = fila[i + 1];
     }
     
-    fila[TAMANHO - 1] = -9999999; // Definir o último elemento como valor padrão
+    fila[TAMANHO - 1] = MAXINTEGER; // Definir o último elemento como valor padrão
+    fim--;
     return true;
 }
+
+void sort(){
+    int aux;
+    for(int i = 0; i < TAMANHO-1; i++){
+        for(int j = i+1; j < TAMANHO; j++){
+            if(fila[i] > fila[j]){
+                aux = fila[i];
+                fila[i] = fila[j];
+                fila[j] = aux;
+            }
+        }
+    }
+    imprimir();
+}
+
+bool set(int index, int valor){
+    if(index <= TAMANHO){
+        fila[index] = valor;
+        return true;
+    }
+    return false;
+};

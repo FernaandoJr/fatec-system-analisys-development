@@ -18,36 +18,34 @@ bool add(int valor) {
 
 void imprimir(){
     for(int i = 0; i < TAMANHO; i++){
-        printf("| %d ", fila[i]);
+        if(fila[i] != -9999999){
+            printf("| %d |", fila[i]);
+        }
+    }
+    if(fila[0] ==  -9999999){
+        printf("Fila Vazia!\n");
     }
 }
 
 int searchByIndex(int valor){
     for(int i = 0; i < TAMANHO; i++){
-        if(fila[i] == valor){
-            return i;
+        if(valor == i){
+            return fila[i];
         }
     }
     return -1;
 }
 
 int size(){
-    int i;
+    int i = 0;
+    int contador = 0;
     for(i; i < TAMANHO; i++){
+        if(fila[i] != -9999999){
+            contador++;
+        }    
     }
-    return i;
+    return contador;
 }
-
-
-bool ExisteNaFila(int senha) {
-    for (int i = 0; i < TAMANHO; i++) {
-        if (fila[i] == senha) {
-            return true;
-        }
-    }
-    return false;
-}
-
 int menu() {
     int op = OP_NAO_SELECIONADA;
 
@@ -66,4 +64,34 @@ int menu() {
     scanf("%d", & op);
 
     return op;
+}
+
+
+void inicializarFila() {
+    for (int i = 0; i < TAMANHO; i++) {
+        fila[i] = -9999999;
+    }
+}
+
+int searchByValue(int valor){
+    int i = 0;
+    for(i; i < TAMANHO; i++){
+        if(fila[i] == valor){
+            return i;
+        }    
+    }
+    return -1;
+}
+// Função para deletar um elemento baseado no índice
+bool deleteByIndex(int index) {
+    if (index < 0 || index >= TAMANHO) {
+        return false; // Índice inválido
+    }
+    
+    for (int i = index; i < TAMANHO - 1; i++) {
+        fila[i] = fila[i + 1];
+    }
+    
+    fila[TAMANHO - 1] = -9999999; // Definir o último elemento como valor padrão
+    return true;
 }

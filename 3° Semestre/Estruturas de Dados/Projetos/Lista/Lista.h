@@ -30,9 +30,11 @@ extern bool vazia;
 // Protótipos
 bool add(int valor);
 bool retirar(int *valor);
-bool ExisteNaFila(int senha);
 void imprimir();
 void inicializarFila();
 int searchByIndex(int valor);
 int size();
+void inicializarFila();
+int searchByValue(int valor);
+bool deleteByIndex(int index);
 #endif //FILACIRCULAR_FILACIRCULAR_H

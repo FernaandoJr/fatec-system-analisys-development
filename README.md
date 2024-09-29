@@ -37,7 +37,7 @@ Nesta seção, são apresentadas as atividades da disciplina de Estrutura de Dad
 <hr/>
 
 ## 📊 Estatísticas
-![Alt](https://repobeats.axiom.co/api/embed/baa36f53e680dceddf5f098d5805a781cd414896.svg "Repobeats analytics image")
+![Estatísticas](https://repobeats.axiom.co/api/embed/baa36f53e680dceddf5f098d5805a781cd414896.svg "Repobeats analytics image")
 
 
 <hr/>

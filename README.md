@@ -33,9 +33,17 @@ Esta seção aborda a disciplina de Cálculo, ministrada pelo Professor Márcio,
 ## [Estrutura de Dados](https://github.com/FernaandoJr/fatec-system-analisys-development/tree/main/3%C2%B0%20Semestre/Estruturas%20de%20Dados)
 Nesta seção, são apresentadas as atividades da disciplina de Estrutura de Dados, ministrada pelo Professor Nava, com foco na implementação em C. O curso abrange conceitos como pilhas, filas, alocação dinâmica, recursividade, listas encadeadas, tabelas de espalhamento e árvores. O objetivo é criar e manipular tipos abstratos de dados, como listas, pilhas, filas e árvores, aplicados em projetos como o simulador de banco de dados.
 
+
+<hr/>
+
+## 📊 Estatísticas
+![Estatísticas](https://repobeats.axiom.co/api/embed/baa36f53e680dceddf5f098d5805a781cd414896.svg "Repobeats analytics image")
+
+
 <hr/>
 
 ## 📄 Licença
 Este projeto está licenciado sob a [Licença MIT](LICENSE) - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
 
 **Obrigado por visitar meu repositório!** 😊

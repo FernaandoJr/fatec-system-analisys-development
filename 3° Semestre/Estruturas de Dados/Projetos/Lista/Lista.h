@@ -4,7 +4,7 @@
 
 // Constantes
 enum {
-    TAMANHO = 7,
+    TAMANHO = 3,
     MAXINTEGER = 2147483647
 };
 
@@ -39,4 +39,5 @@ void tudo_imprimir();
 int searchByIndex(int valor);
 int searchByValue(int valor);
 int size();
+bool expand(int tamanho);
 #endif //FILACIRCULAR_FILACIRCULAR_H

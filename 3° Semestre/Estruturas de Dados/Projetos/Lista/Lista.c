@@ -125,3 +125,18 @@ bool set(int index, int valor){
     }
     return false;
 };
+
+bool expand(int tamanho){
+    int *nova_lista = malloc(tamanho * sizeof(int));
+    if(!nova_lista)
+    {
+        printf("Erro de alocacao!");
+        exit(-1);
+    }
+    free(nova_lista);
+    for(int i = 0; i < TAMANHO; i++) {
+        nova_lista[i] = fila[i];
+    }
+    *fila = nova_lista;
+    return true;
+}

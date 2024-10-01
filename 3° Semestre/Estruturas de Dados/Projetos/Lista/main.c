@@ -89,6 +89,18 @@ int main () {
                 imprimir();
             }
             break;
+        case OP_EXPAND:
+            printf("Digite o tamanho novo desejado: ");
+            scanf("%d", &numero);
+            system("cls");
+            if(expand(numero)){
+                printf("Nova memória alocada!\n");
+                tudo_imprimir();
+            } else{
+                printf("erro\n");
+                tudo_imprimir();
+            }
+            break;
         case OP_SAIR:
             break;
         default:

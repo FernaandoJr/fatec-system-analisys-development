@@ -149,6 +149,10 @@ bool ImprimirTodos(Pessoa *pessoas, int quantidade) {
 }
 
 void Ordenar(Pessoa *pessoas, int quantidade){
+    if(quantidade == 0){
+        printf("Nenhuma pessoa cadastrada.\n");
+        return;
+    }
     for (int i = 0; i < quantidade - 1; i++) {
         for (int j = i + 1; j < quantidade; j++) {
             if (strcmp(pessoas[i].nome, pessoas[j].nome) > 0) {
@@ -158,6 +162,7 @@ void Ordenar(Pessoa *pessoas, int quantidade){
             }
         }
     }
+    printf("Pessoas ordenadas com sucesso!\n");
 }
 
 void Sair(){

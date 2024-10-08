@@ -14,12 +14,16 @@ function SJFResults({ data }) {
 		return total;
 	}
 
+	if (!data || data.length === 0) {
+        return <div>No data available</div>;
+    }
+
 	return (
 		<div className="">
 			<h1 className="title-sjf">tempo de turnaround</h1>
 			{SJFResult.map((eachProcess) => {
 				time += parseInt(eachProcess.execTime);
-                tournaround += time
+                
 				return (
 					<div className="">
 						<p>

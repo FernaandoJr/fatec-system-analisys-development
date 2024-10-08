@@ -3,7 +3,7 @@
 #include "ListaVetores.h"
 
 /*
-NOMES:  
+NOMES:
 FERNANDO DIVINO DE MORAES JUNIOR
 LUIS FELIPE PIASENTINI
 
@@ -13,10 +13,10 @@ gcc -o main main.c ./ListaVetores.c && main
 
 int main () {
     int opcao = OP_NAO_SELECIONADA;
-    Pessoa pessoas[10];
+    Pessoa pessoas[50];
     int quantidade = 0;
 
-        system("cls");
+    system("cls");
 
     while (opcao != OP_SAIR){
         opcao = menu();

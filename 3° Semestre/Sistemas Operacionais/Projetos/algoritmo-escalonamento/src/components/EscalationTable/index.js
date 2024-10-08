@@ -8,7 +8,11 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import DeleteButton from "../DeleteButton";
 
-function BasicTable({ data, delete: handleDelete}) {
+function BasicTable({ data, onDataChange, onDelete }) {
+  const handleClick = (processName) => {
+      onDelete(processName);
+  };
+
   return (
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
@@ -31,7 +35,7 @@ function BasicTable({ data, delete: handleDelete}) {
               <TableCell align="right">{row.execTime}</TableCell>
               <TableCell align="right">{row.priority}</TableCell>
               <TableCell align="right">
-                <DeleteButton id={row.id} onDelete={handleDelete} />
+                <DeleteButton id={row.id} onDelete={onDelete} />
               </TableCell>
             </TableRow>
           ))}

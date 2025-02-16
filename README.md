@@ -42,6 +42,9 @@ Esta seção aborda a disciplina de Sistemas Operacionais, ministrada pelo Profe
 ## [Programação de Scripts](https://github.com/FernaandoJr/fatec-system-analisys-development/tree/main/4%C2%B0%20Semestre/Programa%C3%A7%C3%A3o%20de%20Scripts)
 Esta seção aborda a disciplina de Programação de Scripts, ministrada pelo Professor Eloy. O curso cobre tópicos como Tecnologias e Padrões de navegadores, Arquitetura de aplicações para Internet, Programação do lado Cliente e seus padrões, Construção de páginas dinâmicas e interativas, Acesso a banco de dados através de uma linguagem de programação, Construção de uma GUI (Graphical User Interface) para um aplicativo de banco de dados, Modelagem Visualização e Controle (Model View Controller) e outros. O objetivo é entender e aplicar conceitos de desenvolvimento de scripts em sistemas para internet, bem como os padrões, técnicas e ferramentas associados.
 
+## [Programação Orientada a Objetos (POO)](https://github.com/FernaandoJr/fatec-system-analisys-development/tree/main/4%C2%B0%20Semestre/Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos)
+Esta seção aborda a disciplina de Programação Orientada a Objetos (POO), ministrada pelo Professor [Nome do Professor]. O curso cobre tópicos como Conceitos e evolução da tecnologia de orientação a objetos, Limitações e diferenças entre o paradigma da programação estruturada em relação à orientação a objetos, Conceito de objeto, classe, métodos, atributos, herança, polimorfismo, agregação, associação, dependência, encapsulamento, mensagem e suas respectivas notações na linguagem padrão de representação da orientação a objetos. O objetivo é implementar softwares com o uso de uma linguagem de programação orientada a objetos, aplicando e utilizando as estruturas fundamentais da orientação a objetos.
+
 <hr/>
 
 ## 📊 Estatísticas

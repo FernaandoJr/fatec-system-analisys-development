@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client"
 import { Input } from "@/components/ui/input"
 import { v4 as uuidv4 } from "uuid"
@@ -71,31 +72,31 @@ export default function Home() {
 
     return (
         <div className="flex flex-col">
-			<Banner/>
+            <Banner />
 
-			<div className="flex flex-col md:flex-row justify-center gap-4 px-4 mt-4">
-            <div className="rounded-xl border border-border p-4 flex items-center">
-                <form onSubmit={handleCreateProcess}>
-                    <div className="w-full">
-                        <div className="flex flex-col gap-3">
-                            <Label>Nome do processo</Label>
-                            <Input value={processName} placeholder="Process Name" required defaultChecked={false} type={"text"} onChange={(event) => setProcessName(event.target.value)} />
-                            <Label>Tempo de chegada</Label>
-                            <Input value={startTime} min={0} placeholder="Start Time" required max={100} type={"number"} onChange={(event) => setStartTime(Number(event.target.value))} />
-                            <Label>Tempo de execução</Label>
-                            <Input value={executionTime} required min={1} max={100} type={"number"} onChange={(event) => setExecutionTime(Number(event.target.value))} />
-                            <Button className="bg-green-600 hover:bg-green-700" type="submit">
-                                Cadastrar processo
-                            </Button>
+            <div className="mt-4 flex flex-col justify-center gap-4 px-4 md:flex-row">
+                <div className="flex items-center rounded-xl border border-border p-4">
+                    <form onSubmit={handleCreateProcess}>
+                        <div className="w-full">
+                            <div className="flex flex-col gap-3">
+                                <Label>Nome do processo</Label>
+                                <Input value={processName} placeholder="Process Name" required defaultChecked={false} type={"text"} onChange={(event) => setProcessName(event.target.value)} />
+                                <Label>Tempo de chegada</Label>
+                                <Input value={startTime} min={0} placeholder="Start Time" required max={100} type={"number"} onChange={(event) => setStartTime(Number(event.target.value))} />
+                                <Label>Tempo de execução</Label>
+                                <Input value={executionTime} required min={1} max={100} type={"number"} onChange={(event) => setExecutionTime(Number(event.target.value))} />
+                                <Button className="bg-green-600 hover:bg-green-700" type="submit">
+                                    Cadastrar processo
+                                </Button>
+                            </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
+                <div className="rounded-xl border border-border p-4">
+                    <ProcessTable processes={processes} onDelete={handleProcessDelete} />
+                </div>
             </div>
-            <div className="rounded-xl border border-border p-4">
-                <ProcessTable processes={processes} onDelete={handleProcessDelete} />
-            </div>
-			</div>
-			{/* <div className="p-8">
+            {/* <div className="p-8">
 			<Separator className="" />
 			</div> */}
         </div>

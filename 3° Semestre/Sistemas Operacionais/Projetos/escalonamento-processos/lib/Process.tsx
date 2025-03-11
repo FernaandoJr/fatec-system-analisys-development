@@ -3,4 +3,7 @@ export interface Process{
 	processName: string;
 	startTime: number;
 	executionTime: number;
+	waitingTime: number;
+	turnaroundTime: number;
+	responseTime: number;
 }

@@ -13,13 +13,14 @@ interface ProcessTableProps {
 export default function ProcessTable({ processes, onDelete }: ProcessTableProps) {
     return (
         <>
+		
             <Table>
                 <TableHeader>
                     <TableRow>
                         <TableHead className="">Nome do processo</TableHead>
                         <TableHead>Tempo de chegada</TableHead>
                         <TableHead>Tempo de execução</TableHead>
-                        <TableHead>Ação</TableHead>
+                        <TableHead>Excluir</TableHead>
                     </TableRow>
                 </TableHeader>
                 <TableBody>

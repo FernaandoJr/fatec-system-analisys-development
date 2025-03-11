@@ -9,6 +9,8 @@ import { Button } from "@/components/ui/button"
 import { Process } from "@/lib/Process"
 import { Separator } from "@/components/ui/separator"
 import Banner from "@/components/own/Banner"
+import calcSJF from "@/lib/calcProcessSJF"
+import CalculatorGraph from "@/components/own/CalculatorGraph"
 
 export default function Home() {
     const mockedProcesses: Process[] = [
@@ -17,30 +19,45 @@ export default function Home() {
             processName: "P1",
             startTime: 0,
             executionTime: 8,
+			waitingTime: 0,
+			turnaroundTime: 0,
+			responseTime: 0,
         },
         {
             processId: uuidv4(),
             processName: "P2",
             startTime: 5,
             executionTime: 4,
+			waitingTime: 0,
+			turnaroundTime: 0,
+			responseTime: 0,
         },
         {
             processId: uuidv4(),
             processName: "P3",
             startTime: 9,
             executionTime: 2,
+			waitingTime: 0,
+			turnaroundTime: 0,
+			responseTime: 0,
         },
         {
             processId: uuidv4(),
             processName: "P4",
             startTime: 3,
             executionTime: 3,
+			waitingTime: 0,
+			turnaroundTime: 0,
+			responseTime: 0,
         },
         {
             processId: uuidv4(),
             processName: "P5",
             startTime: 6,
             executionTime: 5,
+			waitingTime: 0,
+			turnaroundTime: 0,
+			responseTime: 0,
         },
     ]
     const [processes, setProcesses] = useState<Process[]>(mockedProcesses)
@@ -48,6 +65,7 @@ export default function Home() {
     const [startTime, setStartTime] = useState(10)
     const [executionTime, setExecutionTime] = useState(4)
     const [quantum, setQuantum] = useState(1)
+	const [chartProcesses, setChartProcesses] = useState<Process[]>()
 
     const handleCreateProcess = (event: React.FormEvent) => {
         event.preventDefault()
@@ -57,6 +75,9 @@ export default function Home() {
             processName,
             startTime,
             executionTime,
+			waitingTime: 0,
+			turnaroundTime: 0,
+			responseTime: 0,
         }
         setProcessName("")
         setStartTime(0)
@@ -70,11 +91,13 @@ export default function Home() {
         setProcesses(updatedProcesses)
     }
 
+
+
     return (
         <div className="flex flex-col">
             <Banner />
 
-            <div className="mt-4 flex flex-col justify-center gap-4 px-4 md:flex-row">
+            <div className="mt-4 flex flex-col justify-center gap-4 px-4 md:flex-row ">
                 <div className="flex items-center rounded-xl border border-border p-4">
                     <form onSubmit={handleCreateProcess}>
                         <div className="w-full">
@@ -96,9 +119,14 @@ export default function Home() {
                     <ProcessTable processes={processes} onDelete={handleProcessDelete} />
                 </div>
             </div>
-            {/* <div className="p-8">
+			<div className="flex justify-center">
+
+            <div className="p-5 container">
 			<Separator className="" />
-			</div> */}
+			</div>
+
+			<CalculatorGraph/>
+			</div>
         </div>
     )
 }

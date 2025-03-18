@@ -10,7 +10,7 @@ import { Process } from "@/lib/Process"
 import { Separator } from "@/components/ui/separator"
 import Banner from "@/components/own/Banner"
 import calcSJF from "@/lib/calcProcessSJF"
-import CalculatorGraph from "@/components/own/CalculatorGraph"
+import {CalculatorGraph} from "@/components/own/CalculatorGraph"
 
 export default function Home() {
     const mockedProcesses: Process[] = [
@@ -91,6 +91,7 @@ export default function Home() {
         setProcesses(updatedProcesses)
     }
 
+	calcSJF(processes)
 
 
     return (
@@ -124,9 +125,8 @@ export default function Home() {
             <div className="p-5 container">
 			<Separator className="" />
 			</div>
-
-			<CalculatorGraph/>
 			</div>
+			<CalculatorGraph processes={processes} />
         </div>
     )
 }

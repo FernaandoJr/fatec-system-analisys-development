@@ -17,7 +17,7 @@ export default function ProcessTable({ processes, onDelete }: ProcessTableProps)
             <Table>
                 <TableHeader>
                     <TableRow>
-                        <TableHead className="">Nome do processo</TableHead>
+                        <TableHead>Nome do processo</TableHead>
                         <TableHead>Tempo de chegada</TableHead>
                         <TableHead>Tempo de execução</TableHead>
                         <TableHead>Excluir</TableHead>

@@ -14,8 +14,8 @@ export default function calcSJF(Processos: Process[]): Process[] {
 		if(index === Processos.length -1){
 			console.log("Average Waiting Time: ", Processos.reduce((accumulator, process) => accumulator + process.waitingTime, 0) / totalProcesses);
 			console.log("Average Turnaround Time: ", Processos.reduce((accumulator, process) => accumulator + process.turnaroundTime, 0) / totalProcesses);
-			console.log("Average Response Time: ", Processos.reduce((accumulator, process) => accumulator + process.responseTime, 0) / totalProcesses
-			);
+			console.log("Average Response Time: ", Processos.reduce((accumulator, process) => accumulator + process.responseTime, 0) / totalProcesses)
+			console.log("Order", process.order)
 			console.log(Processos)
 		}
 		return process;

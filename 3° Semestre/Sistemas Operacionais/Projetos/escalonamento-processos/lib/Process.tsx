@@ -6,4 +6,6 @@ export interface Process{
 	waitingTime: number;
 	turnaroundTime: number;
 	responseTime: number;
+	order: number;
+	color?: string;
 }

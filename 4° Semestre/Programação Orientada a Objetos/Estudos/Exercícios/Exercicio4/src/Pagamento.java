@@ -1,18 +1,15 @@
 public class Pagamento {
 	
 
-	public int pagar(int valor){
-
+	public int pagar(int valor) {
 		return valor;
 	}
 
-	public int pagar(int valor, int codigo_cartao){
-
+	public int pagar(int valor, int codigo_cartao) {
 		return valor;
 	}
 
-	public int pagar(int valor, int codigo_cartao, int numero_parcelas){
-
+	public int pagar(int valor, int codigo_cartao, int numero_parcelas) {
 		return valor;
 	}
 

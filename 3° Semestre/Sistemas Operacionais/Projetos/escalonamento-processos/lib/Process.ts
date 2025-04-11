@@ -1,4 +1,4 @@
-export interface Process{
+export interface Process {
 	processId: string;
 	processName: string;
 	startTime: number;
@@ -8,4 +8,5 @@ export interface Process{
 	responseTime: number;
 	order: number;
 	color?: string;
+	remainingTime?: number; // Added property
 }

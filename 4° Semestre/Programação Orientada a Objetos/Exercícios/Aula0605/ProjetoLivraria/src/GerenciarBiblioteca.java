@@ -1,6 +1,5 @@
 import model.Livro;
 
-import java.sql.ClientInfoStatus;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

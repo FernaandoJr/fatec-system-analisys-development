@@ -1,0 +1,41 @@
+body{ 
+    background-color: rgb(232, 191, 255);
+    color: rgb(65, 65, 65);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+li{
+    list-style-type: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.formulario{
+    text-align: center;
+}
+
+.header{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(190, 140, 220); /* roxo suave que combina */
+    padding: 0.5rem;
+}
+
+.botao{
+    background-color: rgb(255, 170, 230); /* rosa claro que harmoniza */
+    border: solid 3px rgb(150, 100, 180); /* roxo médio */
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.indexH1{
+    text-align: center;
+}

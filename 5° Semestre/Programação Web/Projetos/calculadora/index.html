@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calculadora</title>
+		<link rel="stylesheet" href="estilos.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="calculadora-card">
+				<div class="calculadora-header">
+					<h1 class="calculadora-title">Calculadora</h1>
+					<button
+						class="btn-historico"
+						onclick="abrirHistorico()"
+						title="Ver histórico">
+						<svg
+							width="20"
+							height="20"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round">
+							<path d="M3 3v5h5" />
+							<path d="M3.05 13A9 9 0 1 0 6 5.3L3 8" />
+							<path d="M12 7v5l4 2" />
+						</svg>
+					</button>
+				</div>
+
+				<div class="calculadora">
+					<div class="display">
+						<div class="operacao-atual" id="operacaoAtual"></div>
+						<div class="resultado" id="resultado">0</div>
+					</div>
+
+					<div class="botoes">
+						<!-- Primeira linha -->
+						<button
+							class="btn btn-secondary btn-on-off"
+							onclick="ligarDesligar()">
+							ON/OFF
+						</button>
+						<button
+							class="btn btn-secondary"
+							onclick="limparTudo()">
+							C
+						</button>
+						<button
+							class="btn btn-secondary"
+							onclick="raizQuadrada()">
+							√
+						</button>
+						<button
+							class="btn btn-secondary"
+							onclick="exponencial()">
+							^
+						</button>
+
+						<!-- Segunda linha -->
+						<button
+							class="btn btn-primary"
+							onclick="adicionarNumero('7')">
+							7
+						</button>
+						<button
+							class="btn btn-primary"
+							onclick="adicionarNumero('8')">
+							8
+						</button>
+						<button
+							class="btn btn-primary"
+							onclick="adicionarNumero('9')">
+							9
+						</button>
+						<button
+							class="btn btn-accent"
+							onclick="adicionarOperador('*')">
+							×
+						</button>
+
+						<!-- Terceira linha -->
+						<button
+							class="btn btn-primary"
+							onclick="adicionarNumero('4')">
+							4
+						</button>
+						<button
+							class="btn btn-primary"
+							onclick="adicionarNumero('5')">
+							5
+						</button>
+						<button
+							class="btn btn-primary"
+							onclick="adicionarNumero('6')">
+							6
+						</button>
+						<button
+							class="btn btn-accent"
+							onclick="adicionarOperador('+')">
+							+
+						</button>
+
+						<!-- Quarta linha -->
+						<button
+							class="btn btn-primary"
+							onclick="adicionarNumero('1')">
+							1
+						</button>
+						<button
+							class="btn btn-primary"
+							onclick="adicionarNumero('2')">
+							2
+						</button>
+						<button
+							class="btn btn-primary"
+							onclick="adicionarNumero('3')">
+							3
+						</button>
+						<button
+							class="btn btn-accent"
+							onclick="adicionarOperador('-')">
+							−
+						</button>
+
+						<!-- Quinta linha -->
+						<button
+							class="btn btn-primary btn-zero"
+							onclick="adicionarNumero('0')">
+							0
+						</button>
+						<button
+							class="btn btn-secondary"
+							onclick="adicionarDecimal()">
+							,
+						</button>
+						<button
+							class="btn btn-accent"
+							onclick="adicionarOperador('/')">
+							÷
+						</button>
+
+						<!-- Sexta linha -->
+						<button
+							class="btn btn-secondary"
+							onclick="abrirParenteses()">
+							(
+						</button>
+						<button
+							class="btn btn-secondary"
+							onclick="fecharParenteses()">
+							)
+						</button>
+						<button
+							class="btn btn-secondary"
+							onclick="porcentagem()">
+							%
+						</button>
+						<button class="btn btn-success" onclick="calcular()">
+							=
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal do Histórico -->
+		<div
+			class="modal-overlay"
+			id="modalHistorico"
+			onclick="fecharHistorico()">
+			<div class="modal-content" onclick="event.stopPropagation()">
+				<div class="modal-header">
+					<h2 class="modal-title">Histórico de Cálculos</h2>
+					<button class="btn-close" onclick="fecharHistorico()">
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round">
+							<line x1="18" y1="6" x2="6" y2="18"></line>
+							<line x1="6" y1="6" x2="18" y2="18"></line>
+						</svg>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="historico-content" id="historicoContent">
+						<div class="historico-vazio show" id="historicoVazio">
+							Nenhuma operação realizada
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button
+						class="btn btn-destructive"
+						onclick="limparHistorico()">
+						Limpar Histórico
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- Scripts organizados por responsabilidade -->
+		<script src="js/utils.js"></script>
+		<script src="js/display.js"></script>
+		<script src="js/history.js"></script>
+		<script src="js/calculator.js"></script>
+	</body>
+</html>
